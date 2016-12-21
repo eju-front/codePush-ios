@@ -1,0 +1,6 @@
+framework module EJUCheckVersionSDK {
+  umbrella header "EJUCheckVersionSDK.h"
+
+  export *
+  module * { export * }
+}
