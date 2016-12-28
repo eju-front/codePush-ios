@@ -26,6 +26,21 @@
 		709F78CB1DE828840025C2C2 /* EJUCheckVersionSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 709F78BD1DE828840025C2C2 /* EJUCheckVersionSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		709F78DB1DE82AD90025C2C2 /* EJUCheckVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 709F78D91DE82AD90025C2C2 /* EJUCheckVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		709F78DC1DE82AD90025C2C2 /* EJUCheckVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 709F78DA1DE82AD90025C2C2 /* EJUCheckVersion.m */; };
+		70E184E81E13AD90004EDD73 /* EJUHotUpdateServe.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E184D81E13AD90004EDD73 /* EJUHotUpdateServe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70E184E91E13AD90004EDD73 /* EJUHotUpdateServe.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E184D91E13AD90004EDD73 /* EJUHotUpdateServe.m */; };
+		70E184EA1E13AD90004EDD73 /* EJUUpdateNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E184DA1E13AD90004EDD73 /* EJUUpdateNet.h */; };
+		70E184EB1E13AD90004EDD73 /* EJUUpdateNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E184DB1E13AD90004EDD73 /* EJUUpdateNet.m */; };
+		70E184EC1E13AD90004EDD73 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E184DD1E13AD90004EDD73 /* crypt.h */; };
+		70E184ED1E13AD90004EDD73 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E184DE1E13AD90004EDD73 /* ioapi.c */; };
+		70E184EE1E13AD90004EDD73 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E184DF1E13AD90004EDD73 /* ioapi.h */; };
+		70E184EF1E13AD90004EDD73 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E184E01E13AD90004EDD73 /* mztools.c */; };
+		70E184F01E13AD90004EDD73 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E184E11E13AD90004EDD73 /* mztools.h */; };
+		70E184F11E13AD90004EDD73 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E184E21E13AD90004EDD73 /* unzip.c */; };
+		70E184F21E13AD90004EDD73 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E184E31E13AD90004EDD73 /* unzip.h */; };
+		70E184F31E13AD90004EDD73 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E184E41E13AD90004EDD73 /* zip.c */; };
+		70E184F41E13AD90004EDD73 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E184E51E13AD90004EDD73 /* zip.h */; };
+		70E184F51E13AD90004EDD73 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E184E61E13AD90004EDD73 /* ZipArchive.h */; };
+		70E184F61E13AD90004EDD73 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 70E184E71E13AD90004EDD73 /* ZipArchive.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,21 @@
 		709F78CA1DE828840025C2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		709F78D91DE82AD90025C2C2 /* EJUCheckVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJUCheckVersion.h; sourceTree = "<group>"; };
 		709F78DA1DE82AD90025C2C2 /* EJUCheckVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJUCheckVersion.m; sourceTree = "<group>"; };
+		70E184D81E13AD90004EDD73 /* EJUHotUpdateServe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJUHotUpdateServe.h; sourceTree = "<group>"; };
+		70E184D91E13AD90004EDD73 /* EJUHotUpdateServe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJUHotUpdateServe.m; sourceTree = "<group>"; };
+		70E184DA1E13AD90004EDD73 /* EJUUpdateNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJUUpdateNet.h; sourceTree = "<group>"; };
+		70E184DB1E13AD90004EDD73 /* EJUUpdateNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJUUpdateNet.m; sourceTree = "<group>"; };
+		70E184DD1E13AD90004EDD73 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		70E184DE1E13AD90004EDD73 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		70E184DF1E13AD90004EDD73 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		70E184E01E13AD90004EDD73 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		70E184E11E13AD90004EDD73 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		70E184E21E13AD90004EDD73 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		70E184E31E13AD90004EDD73 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		70E184E41E13AD90004EDD73 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		70E184E51E13AD90004EDD73 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		70E184E61E13AD90004EDD73 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		70E184E71E13AD90004EDD73 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +123,13 @@
 				709F78D91DE82AD90025C2C2 /* EJUCheckVersion.h */,
 				709F78DA1DE82AD90025C2C2 /* EJUCheckVersion.m */,
 				709F78BE1DE828840025C2C2 /* Info.plist */,
+				70E184D81E13AD90004EDD73 /* EJUHotUpdateServe.h */,
+				70E184D91E13AD90004EDD73 /* EJUHotUpdateServe.m */,
+				70E184DA1E13AD90004EDD73 /* EJUUpdateNet.h */,
+				70E184DB1E13AD90004EDD73 /* EJUUpdateNet.m */,
+				70E184DC1E13AD90004EDD73 /* minizip */,
+				70E184E61E13AD90004EDD73 /* ZipArchive.h */,
+				70E184E71E13AD90004EDD73 /* ZipArchive.mm */,
 			);
 			path = EJUCheckVersionSDK;
 			sourceTree = "<group>";
@@ -106,6 +143,22 @@
 			path = EJUCheckVersionSDKTests;
 			sourceTree = "<group>";
 		};
+		70E184DC1E13AD90004EDD73 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				70E184DD1E13AD90004EDD73 /* crypt.h */,
+				70E184DE1E13AD90004EDD73 /* ioapi.c */,
+				70E184DF1E13AD90004EDD73 /* ioapi.h */,
+				70E184E01E13AD90004EDD73 /* mztools.c */,
+				70E184E11E13AD90004EDD73 /* mztools.h */,
+				70E184E21E13AD90004EDD73 /* unzip.c */,
+				70E184E31E13AD90004EDD73 /* unzip.h */,
+				70E184E41E13AD90004EDD73 /* zip.c */,
+				70E184E51E13AD90004EDD73 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -113,8 +166,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E184F01E13AD90004EDD73 /* mztools.h in Headers */,
+				70E184F51E13AD90004EDD73 /* ZipArchive.h in Headers */,
+				70E184E81E13AD90004EDD73 /* EJUHotUpdateServe.h in Headers */,
 				709F78CB1DE828840025C2C2 /* EJUCheckVersionSDK.h in Headers */,
+				70E184F21E13AD90004EDD73 /* unzip.h in Headers */,
+				70E184EA1E13AD90004EDD73 /* EJUUpdateNet.h in Headers */,
+				70E184EE1E13AD90004EDD73 /* ioapi.h in Headers */,
+				70E184F41E13AD90004EDD73 /* zip.h in Headers */,
 				709F78DB1DE82AD90025C2C2 /* EJUCheckVersion.h in Headers */,
+				70E184EC1E13AD90004EDD73 /* crypt.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E184F11E13AD90004EDD73 /* unzip.c in Sources */,
 				709F78DC1DE82AD90025C2C2 /* EJUCheckVersion.m in Sources */,
+				70E184F61E13AD90004EDD73 /* ZipArchive.mm in Sources */,
+				70E184EB1E13AD90004EDD73 /* EJUUpdateNet.m in Sources */,
+				70E184ED1E13AD90004EDD73 /* ioapi.c in Sources */,
+				70E184F31E13AD90004EDD73 /* zip.c in Sources */,
+				70E184E91E13AD90004EDD73 /* EJUHotUpdateServe.m in Sources */,
+				70E184EF1E13AD90004EDD73 /* mztools.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
