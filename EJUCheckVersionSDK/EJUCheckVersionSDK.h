@@ -17,4 +17,3 @@ FOUNDATION_EXPORT const unsigned char EJUCheckVersionSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <EJUCheckVersionSDK/PublicHeader.h>
 
 #import "EJUCheckVersion.h"
-#impott "EJUHotUpdateServe.h"

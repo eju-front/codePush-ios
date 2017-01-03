@@ -40,6 +40,7 @@
         appName = @"example";
     }
     
+    //
     [self setDefaultsObject:@"FirsEnter" forKey:@"firstInto"];
     
     self.net = [[EJUUpdateNet alloc] init];
